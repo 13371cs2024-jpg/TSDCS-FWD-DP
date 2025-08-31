@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venkatesan.s - Data Science Portfolio</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-dot"></div>
+
+  <header>
+    <nav class="container">
+      <div class="logo">⚡ Venkatesan</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Venkatesan</h1>
+        <p>Data Science Student | VR Developer | Rotaract Member | Arduino Expert</p>
+        <a href="#about" class="btn">Explore My Work</a>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- About Section -->
+      <section id="about" class="fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="profile-card">
+            <div class="profile-img">
+              <img src="arun.jpg" alt="Venkatesan's Profile Picture">
+            </div>
+            <h3>Venkatesan S</h3>
+            <p>2nd Year Data Science</p>
+            <p>Prince Shri Venkateshwara College</p>
+          </div>
+          <div class="about-text">
+            <h3>Tech Enthusiast & Community Leader</h3>
+            <p>Second-year Data Science student passionate about technology and innovation. Active GDG and Rotaract member with hands-on experience in VR development, Arduino programming, and creative design.</p>
+            <p>I enjoy building solutions that bridge the gap between data insights and real-world applications while contributing to community service and leadership initiatives.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="fade-in">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>📊 Data Science</h3>
+            <p>Python, R, Pandas, NumPy, Machine Learning, Data Visualization</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>🥽 VR Development</h3>
+            <p>Unity, C#, 3D Modeling, Real-world Problem Solving</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>🔧 Arduino & IoT</h3>
+            <p>C/C++, Sensor Integration, Hardware Programming</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>🤝 Leadership & Service</h3>
+            <p>Rotaract Member, GDG Participant, Team Leadership, Community Service</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>🎨 Design & Creativity</h3>
+            <p>Poster Design, Adobe Suite, UI/UX, Visual Communication</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="fade-in">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">🥽</div>
+            <div class="project-content">
+              <h3>VR Problem Solver</h3>
+              <p>Immersive VR application for real-world problem solving</p>
+              <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">VR</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">📊</div>
+            <div class="project-content">
+              <h3>Data Dashboard</h3>
+              <p>Python-based analytics dashboard for business insights</p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Plotly</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">🔧</div>
+            <div class="project-content">
+              <h3>Smart IoT System</h3>
+              <p>Arduino-based automation and monitoring system</p>
+              <div class="project-tags">
+                <span class="tag">Arduino</span>
+                <span class="tag">C++</span>
+                <span class="tag">IoT</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">🎨</div>
+            <div class="project-content">
+              <h3>Community Service Project</h3>
+              <p>Rotaract-led community initiative combining tech skills with social impact</p>
+              <div class="project-tags">
+                <span class="tag">Rotaract</span>
+                <span class="tag">Leadership</span>
+                <span class="tag">Community</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Comments Section -->
+    <section id="comments" class="comments-section">
+      <div class="container">
+        <h2 class="section-title">Leave a Comment</h2>
+
+        <div class="comment-form">
+          <form id="commentForm">
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Share your thoughts or collaboration ideas..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="comments-display" id="commentsDisplay">
+          <div class="comment-item">
+            <div class="comment-header">
+              <span class="comment-author">Sarah Chen</span>
+              <span class="comment-date">3 days ago</span>
+            </div>
+            <p>Amazing VR project! Would love to see a demo. Your portfolio shows great potential.</p>
+          </div>
+
+          <div class="comment-item">
+            <div class="comment-header">
+              <span class="comment-author">Dr. Rajesh Kumar</span>
+              <span class="comment-date">1 week ago</span>
+            </div>
+            <p>Impressive combination of skills. The Arduino projects demonstrate excellent technical understanding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <h3>Email</h3>
+            <p>venkatesan.ds@gmail.com</p>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <h3>LinkedIn</h3>
+            <p>linkedin.com/in/venkatesan</p>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">💻</div>
+            <h3>GitHub</h3>
+            <p>github.com/venkatesan-ds</p>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">🎓</div>
+            <h3>College</h3>
+            <p>Prince Shri Venkateshwara College</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
